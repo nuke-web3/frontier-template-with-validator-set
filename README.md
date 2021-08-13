@@ -6,6 +6,21 @@ A [FRAME](https://substrate.dev/docs/en/next/conceptual/runtime/frame)-based
 
 ### Includes [substrate-validator-set](https://github.com/gautamdhameja/substrate-validator-set) pallet as well
 
+Watch this video to see how to run the chain and add validators -
+https://www.youtube.com/watch?v=lIYxE-tOAdw. There is a guide as well
+[availbe in this repo here](./utils/testnet-instructions.md) To use the pallet with the `Collective`
+pallet, follow the steps in [docs/council-integration.md](./docs/council-integration.md).
+
+For testing with
+[Polkadot JS Apps/API](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/settings), you
+must set custom types:
+
+```json
+{
+	"Keys": "SessionKeys2"
+}
+```
+
 ## Generation & Upstream
 
 This template is maintained in the
