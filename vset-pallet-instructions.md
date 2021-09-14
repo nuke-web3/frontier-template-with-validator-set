@@ -42,7 +42,7 @@ avalible at: https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9946#/
 
 ```json
 {
-	"Keys": "SessionKeys2"
+  "Keys": "SessionKeys2"
 }
 ```
 
@@ -66,10 +66,10 @@ avalible at: https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9946#/
 
 Check the `chalie` node is producing blocks now (once the next session starts):
 
--   The node's logs include the lines [mentioned above](#block-producers-logs) now.
--   Validate the chain state in the UI:
-    -   `Developer -> ChainState` and `session -> validators(): Vec<ValidatorId>` will have all
-        three node's AccountIDs listed.
-    -   Also it is in `validatorSet -> validators(): Option<Vec<AccountId>>`.
--   Look at the `Explorer` page and it lists the validator of blocks as they are produced, CHARLIE
-    should appear.
+- The node's logs include the lines [mentioned above](#block-producers-logs) now.
+- Validate the chain state in the UI:
+  - `Developer -> ChainState` and `session -> validators(): Vec<ValidatorId>` will have all
+    three node's AccountIDs listed.
+  - Also it is in `validatorSet -> validators(): Option<Vec<AccountId>>`.
+- Look at the `Explorer` page and it lists the validator of blocks as they are produced, CHARLIE
+  should appear.

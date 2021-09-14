@@ -8,7 +8,7 @@ A [FRAME](https://substrate.dev/docs/en/next/conceptual/runtime/frame)-based
 
 Watch this video to see how to run the chain and add validators -
 https://www.youtube.com/watch?v=lIYxE-tOAdw. There is a guide as well
-[availbe in this repo here](./utils/testnet-instructions.md) To use the pallet with the `Collective`
+[available in this repo here](vset-pallet-instructions.md) To use the pallet with the `Collective`
 pallet, follow the steps in [docs/council-integration.md](./docs/council-integration.md).
 
 For testing with
@@ -17,7 +17,7 @@ must set custom types:
 
 ```json
 {
-	"Keys": "SessionKeys2"
+  "Keys": "SessionKeys2"
 }
 ```
 
@@ -91,26 +91,26 @@ inspect blocks:
 
 ```json
 {
-	"Address": "MultiAddress",
-	"LookupSource": "MultiAddress",
-	"Account": {
-		"nonce": "U256",
-		"balance": "U256"
-	},
-	"Transaction": {
-		"nonce": "U256",
-		"action": "String",
-		"gas_price": "u64",
-		"gas_limit": "u64",
-		"value": "U256",
-		"input": "Vec<u8>",
-		"signature": "Signature"
-	},
-	"Signature": {
-		"v": "u64",
-		"r": "H256",
-		"s": "H256"
-	}
+  "Address": "MultiAddress",
+  "LookupSource": "MultiAddress",
+  "Account": {
+    "nonce": "U256",
+    "balance": "U256"
+  },
+  "Transaction": {
+    "nonce": "U256",
+    "action": "String",
+    "gas_price": "u64",
+    "gas_limit": "u64",
+    "value": "U256",
+    "input": "Vec<u8>",
+    "signature": "Signature"
+  },
+  "Signature": {
+    "v": "u64",
+    "r": "H256",
+    "s": "H256"
+  }
 }
 ```
 
